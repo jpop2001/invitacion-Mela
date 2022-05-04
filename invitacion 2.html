@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Invitación Mela</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<script src="http://jarallax.com/jquery-1.7.1.min.js"></script>
+	<script src="http://jarallax.com/download/jarallax-0.2.js"></script>
+
+	<script>
+		init=function()
+		{
+			jarallax= new Jarallax();
+
+
+
+
+jarallax.addAnimation("#playa", [{progress:"0%",top:"0%"},{progress:"12%",top:"-200%"}]);
+jarallax.addAnimation("#feliz", [{progress:"0%",top:"0%"},{progress:"9%",top:"-50%"},{progress:"12%",top:"-200%"}]);
+jarallax.addAnimation("#rosa", [{progress:"0%",top:"100%",opacity:"0"},{progress:"19%",top:"-40%",opacity:"1"},{progress:"23%",top:"-100%",opacity:"1"},{progress:"28%",top:"-150%"}]);
+jarallax.addAnimation("#blanco", [{progress:"0%",top:"255%"},{progress:"28%",top:"20%"},{progress:"44%",top:"-100%"}]);
+jarallax.addAnimation("#dia", [{progress:"0%",top:"300%"},{progress:"63%",top:"-250%"}]);
+jarallax.addAnimation("#cer", [{progress:"0%",top:"300%",opacity:"0"},{progress:"67%",top:"-160%",opacity:"1"}]);
+jarallax.addAnimation("#iglesia", [{progress:"0%",top:"260%"},{progress:"19%",top:"260%"},{progress:"44%",top:"60%"},{progress:"57%",top:"-200%"}]);
+jarallax.addAnimation("#san", [{progress:"0%",top:"800%"},{progress:"61%",top:"-100%"}]);
+jarallax.addAnimation("#dir", [{progress:"0%",top:"800%"},{progress:"63%",top:"-100%"}]);
+jarallax.addAnimation("#ubi", [{progress:"0%",top:"800%"},{progress:"69%",top:"-100%"}]);
+jarallax.addAnimation("#rec", [{progress:"0%",top:"800%"},{progress:"72%",top:"-100%"}]);
+jarallax.addAnimation("#salon", [{progress:"0%",top:"800%"},{progress:"78%",top:"-100%"},{progress:"80%",top:"-150%"}]);
+jarallax.addAnimation("#alegria", [{progress:"0%",top:"800%"},{progress:"88%",top:"-100%"}]);
+jarallax.addAnimation("#dir2", [{progress:"0%",top:"800%"},{progress:"93%",top:"-100%"}]);
+jarallax.addAnimation("#ubi2", [{progress:"0%",top:"800%"},{progress:"101%",top:"-100%"}]);
+jarallax.addAnimation("#hijos", [{progress:"0%",top:"800%"},{progress:"106%",top:"-100%"}]);
+jarallax.addAnimation("#conf", [{progress:"0%",top:"800%"},{progress:"115%",top:"-100%"}]);
+jarallax.addAnimation("#wa", [{progress:"0%",top:"800%"},{progress:"125%",top:"-100%"}]);
+
+//CELULAR
+jarallax.addAnimation("#playac", [{progress:"0%",top:"0%"},{progress:"12%",top:"-200%"}]);
+jarallax.addAnimation("#felizc", [{progress:"0%",top:"15%"},{progress:"9%",top:"-50%"},{progress:"12%",top:"-200%"}]);
+jarallax.addAnimation("#rosac", [{progress:"0%",top:"100%",opacity:"0"},{progress:"10%",top:"10%",opacity:"1"},{progress:"23%",top:"-100%",opacity:"1"},{progress:"28%",top:"-150%"}]);
+jarallax.addAnimation("#blancoc", [{progress:"0%",top:"255%"},{progress:"15%",top:"20%"},{progress:"44%",top:"-100%"}]);
+jarallax.addAnimation("#diac", [{progress:"0%",top:"300%"},{progress:"40%",top:"-250%"}]);
+jarallax.addAnimation("#cerc", [{progress:"0%",top:"300%",opacity:"1"},{progress:"50%",top:"-160%",opacity:"1"}]);
+jarallax.addAnimation("#iglesiac", [{progress:"0%",top:"260%"},{progress:"50%",top:"-100%"}]);
+jarallax.addAnimation("#sanc", [{progress:"0%",top:"260%"},{progress:"50%",top:"-60%"}]);
+jarallax.addAnimation("#dirc", [{progress:"0%",top:"260%"},{progress:"50%",top:"-50%"}]);
+jarallax.addAnimation("#ubic", [{progress:"0%",top:"260%"},{progress:"75%",top:"-150%"}]);
+jarallax.addAnimation("#recc", [{progress:"0%",top:"800%"},{progress:"77%",top:"-440%"}]);
+jarallax.addAnimation("#salonc", [{progress:"0%",top:"800%"},{progress:"78%",top:"-420%"}]);
+jarallax.addAnimation("#alegriac", [{progress:"0%",top:"800%"},{progress:"78%",top:"-380%"}]);
+jarallax.addAnimation("#dir2c", [{progress:"0%",top:"800%"},{progress:"80%",top:"-380%"}]);
+jarallax.addAnimation("#ubi2c", [{progress:"0%",top:"800%"},{progress:"80%",top:"-340%"}]);
+jarallax.addAnimation("#hijosc", [{progress:"0%",top:"800%"},{progress:"80%",top:"-300%"}]);
+jarallax.addAnimation("#confc", [{progress:"0%",top:"800%"},{progress:"80%",top:"-260%"}]);
+jarallax.addAnimation("#wac", [{progress:"0%",top:"800%"},{progress:"80%",top:"-230%"}]);
+
+
+
+
+
+		}
+
+
+
+
+	</script>
+	<style>
+		
+#paginaC
+{
+	display: none;
+}
+
+@media screen and (max-width: 416px)
+{
+	#paginaE
+	{
+		display: none;
+	}
+	#paginaC
+	{
+		display: block;
+	}
+}
+		body
+		{
+			margin: 0;
+		}
+
+
+		#paginaE
+		{
+			width: 100;
+			height: 5500px;
+			background-image: url(https://imgur.com/aaaZMoH);
+
+		}
+
+		
+
+		#playa
+		{
+			position: fixed;
+			top: 0%;
+		}
+		#feliz
+		{
+			position: fixed;
+			top: 0%;
+			left: 15%;
+
+
+		}
+
+		#rosa
+		{
+			position: fixed;
+			left: 17%;
+			top: 100%;
+			opacity: 0;
+		}
+		#blanco
+		{
+			position: fixed;
+			left: 40%;
+			top: 255%;
+		}
+		#dia
+		{
+			position: fixed;
+			left: 17%;
+			top: 255%;
+		}
+		#cer
+		{
+			position: fixed;
+			left: 17%;
+			top: 255%;
+		}
+		#iglesia
+		{
+			position: fixed;
+			
+			top: 255%;
+		}
+		
+		
+
+		
+
+		#san
+		{
+			position: fixed;
+			left: 20%;
+			top: 800%;
+		}
+		#dir
+		{
+			position: fixed;
+			left: 18%;
+			top: 800%;
+		}
+		#ubi
+		{
+			position: fixed;
+			left: 43%;
+			top: 800%;
+		}
+		#rec
+		{
+			position: fixed;
+			left: 18%;
+			top: 800%;
+		}
+		#salon
+		{
+			position: fixed;
+			left: 19%;
+			top: 800%;
+		}
+		#alegria
+		{
+			position: fixed;
+			left: 18%;
+			top: 800%;
+		}
+		#dir2
+		{
+			position: fixed;
+			left: 18%;
+			top: 800%;
+		}
+		#ubi2
+		{
+			position: fixed;
+			left: 43%;
+			top: 800%;
+		}
+		#hijos
+		{
+			position: fixed;
+			left: 18%;
+			top: 800%;
+		}
+		#conf
+		{
+			position: fixed;
+			left: 25%;
+			top: 800%;
+		}
+		#wa
+		{
+			position: fixed;
+			left: 47%;
+			top: 800%;
+		}
+
+
+
+
+/*CELULAR*/
+
+		#paginaC
+		{
+			width: 100;
+			height: 3500px;
+		
+
+		}
+		
+		#playac
+		{
+			position: fixed;
+			top: 0%;
+		}
+
+		#felizc
+		{
+			position: fixed;
+			top: 15%;
+			left: 0%;
+		}
+
+		#rosac
+		{
+			position: fixed;
+			left: 10%;
+			top: 100%;
+			opacity: 0;
+		}
+
+		#blancoc
+		{
+			position: fixed;
+			left: 13%;
+			top: 255%;
+		}
+
+		#diac
+		{
+			position: fixed;
+			left: 0%;
+			top: 255%;
+		}
+
+		#cerc
+		{
+			position: fixed;
+			left: 0%;
+			top: 255%;
+		}
+
+		#iglesiac
+		{
+			position: fixed;
+			
+			top: 255%;
+		}
+
+		#sanc
+		{
+			position: fixed;
+			left: 0%;
+			top: 260%;
+		}
+
+		#dirc
+		{
+			position: fixed;
+			left: 0%;
+			top: 260%;
+		}
+
+		#ubic
+		{
+			position: fixed;
+			left: 43%;
+			top: 800%;
+		}
+
+		#recc
+		{
+			position: fixed;
+			left: 0%;
+			top: 800%;
+		}
+
+		#salonc
+		{
+			position: fixed;
+			
+			top: 800%;
+		}
+
+		#alegriac
+		{
+			position: fixed;
+			left: 0%;
+			top: 800%;
+		}
+
+		#dir2c
+		{
+			position: fixed;
+			left: 0%;
+			top: 800%;
+		}
+
+		#ubi2c
+		{
+			position: fixed;
+			left: 43%;
+			top: 800%;
+		}
+
+		#hijosc
+		{
+			position: fixed;
+			left: 0%;
+			top: 800%;
+		}
+
+		#confc
+		{
+			position: fixed;
+			left: 17%;
+			top: 800%;
+		}
+
+		#wac
+		{
+			position: fixed;
+			left: 40%;
+			top: 800%;
+		}
+
+	</style>
+
+</head>
+<body onload="init()">
+<div id="paginaE">
+
+	
+
+	<div id="playa">
+		<img src="https://i.imgur.com/NdmeX14.jpg" width="100%" height="1199px">
+	</div>
+	<div id="feliz">
+		<img src="https://i.imgur.com/vgs3wnG.png" width="100%" height="100%">
+	</div>
+	<div id="rosa">
+		<img src="https://i.imgur.com/38CyoCo.png" width="100%" height="100%">
+	</div>
+	<div id="blanco">
+		<img src="https://i.imgur.com/IvZgjdL.jpg" width="100%" height="100%">
+	</div>
+	<div id="dia">
+		<img src="https://i.imgur.com/sEXKfBv.png" width="100%" height="100%">
+	</div>
+	<div id="cer">
+		<img src="https://i.imgur.com/RMFhNV7.png" width="100%" height="100%">
+	</div>
+	<div id="iglesia">
+		<img src="https://i.imgur.com/1XS8uKl.jpg" width="160%" height="160%">
+	</div>
+	<div id="san">
+		<img src="https://i.imgur.com/6zZzV4K.png" width="100%" height="100%">
+	</div>
+	<div id="dir">
+		<img src="https://i.imgur.com/mcxrUFO.png" width="100%" height="100%">
+	</div>
+	<div id="ubi">
+		<a href="https://goo.gl/maps/xLGbvcrmMzpjrWfz7"target="_blanck"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/2275px-Google_Maps_Logo_2020.svg.png" width="30%" height="30%"></a>
+	</div>
+	<div id="rec">
+		<img src="https://i.imgur.com/2nKr16C.png" width="100%" height="100%">
+	</div>
+	<div id="salon">
+		<img src="http://huastecainnhotel.com/images/pho-gallery-big/13.jpg" width="160%" height="160%">
+	</div>
+	<div id="alegria">
+		<img src="https://i.imgur.com/qiCqqiT.png" width="100%" height="100%">
+	</div>
+	<div id="dir2">
+		<img src="https://i.imgur.com/uZHQBwp.png" width="100%" height="100%">
+	</div>
+	<div id="ubi2">
+		<a href="https://g.page/HIHuastecaInn?share"target="_blanck"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/2275px-Google_Maps_Logo_2020.svg.png" width="30%" height="30%"></a>
+	</div>
+	<div id="hijos">
+		<img src="https://i.imgur.com/XxU8IHL.jpg" width="100%" height="100%">
+	</div>
+	<div id="conf">
+		<img src="https://i.imgur.com/gUGDe68.png" width="80%" height="80%">
+	</div>
+	<div id="wa">
+		<a href="https://wa.me/524441880422"target="_blanck"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" width="10%" height="10%"></a>
+	</div>
+</div>
+
+
+<div id="paginaC">
+	
+	<div id="playac">
+		<img src="https://i.imgur.com/spm7kme.png" width="100%" height="100%">
+	</div>
+	<div id="felizc">
+		<img src="https://i.imgur.com/vgs3wnG.png" width="100%" height="100%">
+	</div>
+	<div id="rosac">
+		<img src="https://i.imgur.com/38CyoCo.png" width="90%" height="90%">
+	</div>
+	<div id="blancoc">
+		<img src="https://i.imgur.com/IvZgjdL.jpg" width="100%" height="100%">
+	</div>
+	<div id="diac">
+		<img src="https://i.imgur.com/sEXKfBv.png" width="100%" height="100%">
+	</div>
+	<div id="cerc">
+		<img src="https://i.imgur.com/RMFhNV7.png" width="100%" height="100%">
+	</div>
+	<div id="iglesiac">
+		<img src="https://i.imgur.com/1XS8uKl.jpg" width="100%" height="100%">
+	</div>
+	<div id="sanc">
+		<img src="https://i.imgur.com/6zZzV4K.png" width="100%" height="100%">
+	</div>
+	<div id="dirc">
+		<img src="https://i.imgur.com/mcxrUFO.png" width="100%" height="100%">
+	</div>
+	<div id="ubic">
+		<a href="https://goo.gl/maps/xLGbvcrmMzpjrWfz7"target="_blanck"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/2275px-Google_Maps_Logo_2020.svg.png" width="30%" height="30%"></a>
+	</div>
+	<div id="recc">
+		<img src="https://i.imgur.com/2nKr16C.png" width="100%" height="100%">
+	</div>
+	<div id="salonc">
+		<img src="http://huastecainnhotel.com/images/pho-gallery-big/13.jpg" width="100%" height="100%">
+	</div>
+	<div id="alegriac">
+		<img src="https://i.imgur.com/qiCqqiT.png" width="100%" height="100%">
+	</div>
+	<div id="dir2c">
+		<img src="https://i.imgur.com/uZHQBwp.png" width="100%" height="100%">
+	</div>
+	<div id="ubi2c">
+		<a href="https://g.page/HIHuastecaInn?share"target="_blanck"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/2275px-Google_Maps_Logo_2020.svg.png" width="30%" height="30%"></a>
+	</div>
+	<div id="hijosc">
+		<img src="https://i.imgur.com/XxU8IHL.jpg" width="100%" height="100%">
+	</div>
+	<div id="confc">
+		<img src="https://i.imgur.com/gUGDe68.png" width="80%" height="80%">
+	</div>
+	<div id="wac">
+		<a href="https://wa.me/524441880422"target="_blanck"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" width="30%" height="30%"></a>
+	</div>
+</div>
+
+</body>
+</html>
